@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-12 col-lg-12">
+    <p>Game #1 (WoW) is used</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-2 col-lg-2">
+    <ul class="nav nav-pills nav-stacked users">
+      {{#each model as |user|}}
+        {{#link-to "main.users.user.index" user tagName="li" current-when="main.users.user"}}
+          {{#link-to "main.users.user.index" user}}{{user.name}}{{/link-to}}
+        {{/link-to}}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-md-10 col-lg-10">
+    {{outlet}}
+  </div>
+</div>

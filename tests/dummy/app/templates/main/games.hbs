@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-2 col-lg-2">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs tabs-left games">
+      {{#each model as |game|}}
+        {{#link-to "main.games.game.users" game tagName="li"}}
+          {{#link-to "main.games.game.users" game}}
+            {{game.name}}
+          {{/link-to}}
+        {{/link-to}}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-md-10 col-lg-10">
+    <div class="tab-content">
+      {{outlet}}
+    </div>
+  </div>
+</div>

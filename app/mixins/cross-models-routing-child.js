@@ -1,0 +1,1 @@
+export {default} from 'ember-cross-models-routing/mixins/cross-models-routing-child';

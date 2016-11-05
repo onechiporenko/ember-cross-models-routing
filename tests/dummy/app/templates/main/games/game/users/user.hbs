@@ -1,0 +1,14 @@
+<ul class="nav nav-tabs">
+  {{#link-to "main.games.game.users.user.classes" model tagName="li"}}
+    {{#link-to "main.games.game.users.user.classes" model class="classes"}}Classes{{/link-to}}
+  {{/link-to}}
+  {{#link-to "main.games.game.users.user.affiliation" model tagName="li"}}
+    {{#link-to "main.games.game.users.user.affiliation" model class="affiliation"}}Affiliation{{/link-to}}
+  {{/link-to}}
+  {{#link-to "main.games.game.users.user.locations" model tagName="li"}}
+    {{#link-to "main.games.game.users.user.locations" model class="locations"}}Locations{{/link-to}}
+  {{/link-to}}
+</ul>
+
+<h2>{{model.name}}</h2>
+{{outlet}}
