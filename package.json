@@ -47,6 +47,7 @@
     "ember-cli-babel": "^5.1.6"
   },
   "ember-addon": {
+    "demoURL": "http://onechiporenko.github.io/ember-cross-models-routing/",
     "configPath": "tests/dummy/config"
   }
 }
