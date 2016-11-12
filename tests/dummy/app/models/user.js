@@ -7,6 +7,6 @@ export default DS.Model.extend({
   game: DS.belongsTo('game'),
   locations: DS.attr(),
   classes: DS.attr(),
-  affiliation: DS.attr(),
+  affiliation: DS.attr()
 
 });

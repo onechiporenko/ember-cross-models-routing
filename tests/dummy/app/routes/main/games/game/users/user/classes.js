@@ -3,10 +3,6 @@ import CrossModelsRoutingChild from 'ember-cross-models-routing/mixins/cross-mod
 
 export default Ember.Route.extend(CrossModelsRoutingChild, {
 
-  parentRouteToCross: 'main.games.game.users.user.index',
-
-  model() {
-    return this.modelFor('main.games.game.users.user');
-  }
+  parentRouteToCross: 'main.games.game.users.user.index'
 
 });
