@@ -172,7 +172,7 @@ export default Ember.Route.extend(CrossModelsRoutingChild, {
 ```
 
 ```handlebars
-{{! app/templates/users/user.locations.hbs }}
+{{! app/templates/users/user/locations.hbs }}
 
 <ul>
   {{#each model.locations as |l|}}
@@ -182,6 +182,8 @@ export default Ember.Route.extend(CrossModelsRoutingChild, {
 ```
 
 ```handlebars
+{{! app/templates/users/user/affiliation.hbs }}
+
 <ul>
   {{#each model.affiliation as |a|}}
     <li>{{a}}</li>
