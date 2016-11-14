@@ -5,6 +5,14 @@ const {keys} = Object;
 
 export default Ember.Mixin.create({
 
+  /**
+   * Parent-route for current route
+   * If user is moved there, some extra data is set to it:
+   *  `childRouteToCross`
+   *  `childRouteQp`
+   *
+   * @type {string}
+   */
   parentRouteToCross: '',
 
   actions: {
