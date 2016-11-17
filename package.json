@@ -1,6 +1,6 @@
 {
   "name": "ember-cross-models-routing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross models routing",
   "directories": {
     "doc": "doc",
